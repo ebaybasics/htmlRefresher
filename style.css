@@ -4,31 +4,32 @@
 }
 
 .template {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    right: 50px;
-    bottom: 50px;
-    min-height: 20px;
-    /* min-width: 80%; */
-    background-color:blue;.template 
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    right: 50px;
-    bottom: 50px;
-    min-height: 20px;
-    /* min-width: 80%; */
-    background-color:blue;
+    display: flex;
+    gap: 10%;
+    min-height: 100px;
+    background-color: blue;
 }
 
-.n-bar{
-    position: absolute;
-    top: 0%;
-    left: 1%;
-    right: 1%;
-    bottom: 90%;
-    min-height: 20px;
+.one {
+
     /* min-width: 80%; */
     background-color:rgb(51, 255, 0);
+}
+
+.two {
+    background-color: red;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: 100px; */
+    gap: 1rem;
+    background-color: blueviolet;
+}
+
+li {
+    list-style: none;
+    background-color: aqua;
+    flex-basis: 100px;
 }
