@@ -1,23 +1,24 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: grey;
 }
 
 .template {
     display: flex;
     gap: 10%;
     min-height: 100px;
-    background-color: blue;
+    background-color: rgb(33, 33, 91);
 }
 
 .one {
 
     /* min-width: 80%; */
-    background-color:rgb(51, 255, 0);
+    background-color:rgb(34, 119, 13);
 }
 
 .two {
-    background-color: red;
+    background-color: rgb(77, 14, 14);
 }
 
 .nav-bar {
@@ -30,6 +31,6 @@
 
 li {
     list-style: none;
-    background-color: aqua;
+    background-color: rgb(50, 105, 105);
     flex-basis: 100px;
 }
